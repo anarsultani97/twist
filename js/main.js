@@ -1,11 +1,11 @@
 $(document).ready(function(){
-			$("#menu li a ").click(function(event){
+			$(".nav li a").click(function(event){
 				event.preventDefault();
 				var element =$(this).attr('href');
 				var top=$(""+element+"").offset().top;
-				var scroll = top - $("#menu").height()
+				var scroll = top - $(".nav").height()
 				$('html,body').animate({
 				scrollTop:scroll
-				},600)
+				},1000)
 			})
 			});
