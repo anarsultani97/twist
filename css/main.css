@@ -1,0 +1,437 @@
+body,
+html {
+    margin: 0px;
+    padding: 0px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#header {
+    min-height: 665px;
+}
+
+ #services{
+ 	min-height: 650px;
+ }
+ #projects{
+ 	min-height: 650px;
+ }
+#testimony {
+    background-color: #f2f2f2;
+}
+
+#companies {
+    padding-top: 50px;
+}
+
+#signup {
+    padding-top: 100px;
+}
+#footer{
+background-color: #41444B;
+color: rgba(255, 255, 255, 0.6);
+min-height: 650px;
+
+}
+
+.headerjpg {
+    background-image: url(../image/header-img.jpg);
+    background-size: cover;
+    height: 700px;
+    /*background-position: center;*/
+    /*background-attachment: fixed;*/
+    background-position-y: 50px;
+}
+
+.menuclass {
+    position: fixed;
+    width: 100%;
+}
+
+.navbar {
+    margin-bottom: 0px;
+    padding: 8px;
+}
+
+.navbar-brand {
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: bold;
+    color: #535659 !important;
+    position: relative;
+    left: 55px;
+}
+
+.navbar-brand::after {
+    content: "";
+    width: 24px;
+    height: 24px;
+    background-color: rgba(0, 173, 181, 0.6);
+    position: absolute;
+    display: block;
+    left: -12px;
+    margin-left: 0px;
+    bottom: 13px;
+    border-radius: 50%;
+}
+
+.navbar-brand::before {
+    content: "";
+    width: 24px;
+    height: 24px;
+    background-color: rgba(250, 85, 85, 0.8);
+    position: absolute;
+    display: block;
+    left: -25px;
+    margin-left: 0px;
+    bottom: 13px;
+    border-radius: 50%;
+}
+
+.menuright {
+    position: relative;
+    right: 40px !important;
+}
+
+.text-fixed {
+    background-attachment: fixed;
+    position: relative;
+}
+
+.headerh1 {
+    color: white;
+    text-align: center;
+    /*margin-top: 180px;*/
+    font-size: 50px;
+    padding-top: 340px;
+}
+
+.headerh3 {
+    color: white;
+    opacity: 0.7;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.headerbutton {
+    background-color: red;
+}
+
+.btn1 {
+    width: 100%;
+}
+
+.btn2 {
+    width: 100%;
+}
+
+.vertical120 {
+    width: 100%;
+    height: 100px;
+}
+
+.page-started h3 {
+    text-transform: uppercase;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    color: #333;
+    padding-bottom: 30px;
+    padding-top: 40px;
+}
+
+.doe-img {
+    margin-top: 20px;
+    width: 90px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+#testimony h6 {
+    color: #7f7f7f;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    display: block;
+}
+
+#testimony h6 span {
+    color: rgba(0, 173, 181, 0.6);
+}
+
+#testimony blockquote {
+    border: none;
+    margin: 30px auto;
+    width: 100%;
+    position: relative;
+    padding: 30px;
+    background: #fff;
+    border-radius: 5px;
+    color: #7f7f7f;
+    font-size: 20px;
+}
+
+.buttons {
+    margin-top: 10px;
+}
+
+.box {
+    width: 10px;
+    height: 10px;
+    color: #fff;
+    font-size: 14px;
+    margin: 5px;
+    padding: 5px;
+    background: #d6d6d6;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+
+/***************Getting Started*****************/
+
+.getting-started-jpg {
+    background: url(../image/header-img.jpg) no-repeat;
+    background-position: center center;
+    height: 400px;
+    background-size: cover;
+}
+
+.getting-started-jpg h2 {
+    color: #fff;
+    margin-bottom: 10px;
+    font-weight: 400;
+    line-height: 1.1;
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+.getting-started-jpg h2 span {
+    color: #FFC12D;
+}
+
+.getting-started-jpg p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 16px;
+}
+
+.padding-left {
+    padding-left: 0px;
+}
+
+.bg-red {
+    background-color: rgba(243, 0, 0, 0.7);
+    height: 400px;
+}
+
+.sign-up {
+    padding-top: 80px;
+    margin: 0;
+    font-size: 24px;
+    color: #fff;
+}
+
+.pricing-p {
+    font-size: 18px;
+    color: #8f989f;
+    line-height: 1.5;
+    font-weight: 400;
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+}
+
+.price-box {
+    border: 2px solid lightgray;
+    text-align: center;
+    padding: 30px;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+
+.pricing-choose {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.price {
+    font-size: 50px;
+    color: #000;
+}
+
+.vahid {
+    font-size: 20px;
+    top: -1.2em;
+    left: 10px;
+}
+
+.small {
+    font-size: 20px;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eeeeee;
+}
+
+.information-price {
+    padding: 0;
+    margin: 0 0 30px 0
+}
+
+.information-price ul li {
+    margin-right: 30px;
+    list-style: none;
+    text-align: center;
+    display: list-item;
+    color: #7f7f7f;
+    font-size: 20px;
+}
+
+.btn {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.btn.btn-primary {
+    background: #00ADB5;
+    color: #fff;
+    border: 2px solid transparent;
+    !important border-radius: 2px;
+}
+
+.best {
+    border: 2px solid #00ADB5;
+}
+
+.best-text {
+    top: 0;
+    left: 50%;
+    margin-left: -55px;
+    margin-top: -2em;
+    position: absolute;
+    padding: 4px 20px;
+    background: #00ADB5;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.best-text::after {
+    content: " ";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -10px;
+    border-top: 10px solid black;
+    border-top-color: #00ADB5;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+}
+
+.red-color {
+    color: #ff2400;
+}
+
+.pricing-end-p {
+    margin-bottom: 1.5em;
+    font-size: 16px;
+    color: #7f7f7f;
+    font-weight: 400;
+}
+
+//****************** After FAQ *********************//
+.compaines-logo {
+    margin-bottom: 30px;
+    float: left;
+    display: inline-block;
+    width: 100%;
+    
+}
+
+.img-canon {
+    height: auto;
+    max-width: 100%;
+    display: block;
+    border: 0;
+}
+
+
+/* Footer*/
+#footer .title-aboutUs{
+	font-size: 22px;
+    color: #fff;
+    position: relative;
+    padding-bottom: 20px;
+}
+#footer .copy-right{
+position: relative;
+padding-top: 20px;
+margin-top: 40px;
+font-size: 17px;
+}
+#footer .footer-p{
+margin-bottom: 10px;
+font-size: 17px;
+}
+ #footer .address-info{
+    margin: 0 0 60px 0;
+    padding:0px;
+}
+.address-info li{
+    font-size: 16px;
+    list-style-type: none;
+    margin: 0 0 20px 0;
+    position: relative;
+   display: list-item;
+   padding-left: 40px;
+    
+}
+.address-info i{
+   color: #00ADB5;
+   top:0;
+   left:0;
+   position: absolute;
+   font-size: 22px;
+}
+#footer .media-icons{
+margin: 0 0 30px 0;
+padding: 0;
+}
+#footer .media-icons li a{
+    color: #00ADB5;
+    text-decoration: none;
+}
+.media-icons li{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    margin-right: 10px;
+}
+.media-icons i{
+    font-size: 22px;
+}
+.media-icons i:hover{
+    color: #fff;
+    transition:0.5s;
+}
+.form-box{
+    display: block;
+    margin:0;
+}
+.form-control{
+    padding: 16px 20px;
+    margin-bottom: 15px;
+    background: rgba(255, 255, 255, 0.05);
+    border:none;
+}
+#submit-btn {
+    color: rgba(255, 255, 255, 0.9) !important;
+    background: #FA5555 !important;
+}
